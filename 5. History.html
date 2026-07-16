@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="#">
+            <input type="text" placeholder="Name"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <button onclick="GoForwards()">Forward</button>
+            <button onclick="GoBackwards()">Backward</button>
+        </form>
+
+    <script>
+
+        function GoForwards()
+        {
+            window.history.forward();
+        }
+
+        function GoBackwards()
+        {
+            window.history.back();
+        }
+/*
+window.history or history
+window.history.back()
+window.history.forward()
+*/
+    </script>
+
+    </body>
+</html>
